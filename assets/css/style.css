@@ -13,10 +13,6 @@
 header {
     height: 90vh;
     background-color: black;
-    background-image: url(./assets/images/banner.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 nav {
@@ -313,3 +309,79 @@ footer {
     color: #c62d70;
 }
 /* End Footer Section */
+
+/* Media Queries */
+@media screen and (max-width: 1400px) {
+    header {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    /* About Section */
+    .about-content h2 {
+        position: relative;
+        top: -80px;
+    }
+
+    article {
+        position: relative;
+        top: -60px;
+        padding: 0 30px;
+    }
+
+    #about .card-container {
+        flex-direction: column;
+    }
+
+    .avatar-image {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    /* Header Section */
+    nav {
+        display: block;
+    }
+
+    #intro h1 {
+        font-size: 80px;
+    }
+
+     /* About Section */
+     #about .card-container {
+         flex-direction: column;
+     }
+
+     article {
+         text-align: center;
+         font-size: 15px;
+     }
+
+    /* Footer Section */
+    .top-footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .top-footer h2 {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    /* About Section */
+    .about-content h2 {
+        font-size: 10px;
+    }
+
+    .links a span {
+        display: hidden;
+    }
+}

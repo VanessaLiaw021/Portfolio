@@ -170,16 +170,35 @@ article {
     background-color: white;
     margin: 0 50px;
     width: 500px;
-    height: 200px;
+    height: 220px;
     border-radius: 10px;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/500/483/798/pastel-purple-background-wallpaper-preview.jpg);
+    box-shadow: 5px 5px 5px 6px rgba(0,0,0,0.2); 
+}
+
+.card1 {
+    background-image: url(https://media.istockphoto.com/photos/plus-minus-divide-multiply-symbols-picture-id1061654982?k=20&m=1061654982&s=612x612&w=0&h=AF7EKVyHEYobMaBPfy3R88IA8n22Tr9VN8hUvShVXww=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.card2 {
+    background-image: url(/assets/images/quote-generator.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.card3 {
+    background-image: url(/assets/images/counter.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .card:hover {
     box-shadow: 5px 5px 5px 6px rgba(0,0,0,0.4);     
-}
-
-.card {
-    background-image: url(https://images.unsplash.com/photo-1616001089004-04948fc0e6c1?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770);
 }
 
 .card-content h3 {
@@ -194,7 +213,7 @@ article {
 .project-links {
     text-align: center;
     position: relative;
-    bottom: -90px;
+    bottom: -100px;
 }
 
 .project-links button {
@@ -204,7 +223,9 @@ article {
     padding: 5px;
     font-size: 13px;
     border-radius: 10px;
-    border: none;
+    border: 2px solid #e866a2;
+    background-color: white;
+    color: #e866a2;
 }
 
 .project-links button:hover {

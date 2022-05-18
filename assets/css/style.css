@@ -19,10 +19,7 @@ body {
 /* Start Header Section */
 header {
     height: 90vh;
-    background-image: url(/assets/images/banner.webp);
-    background-position: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: black;
 }
 
 nav {
@@ -146,10 +143,12 @@ article {
 /* Start Projects Section */
 #projects {
     background-color: black;
+    /*
     background-image: url(/assets/images/banner.webp);
     background-position: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    */
 }
 /* End Projects Section */
 
@@ -186,10 +185,7 @@ article {
 
 /* Start Contact Section */
 #contact {
-    background-image: url(/assets/images/banner.webp);
-    background-position: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: black;
     display: flex;
     justify-content: space-around;
     color: #e866a2;

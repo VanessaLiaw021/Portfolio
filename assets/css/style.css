@@ -108,10 +108,10 @@ nav a i {
 }
 
 #about .card-container {
-    border: 1px solid #e866a2;
+    border: 2px solid #e866a2;
     border-radius: 10px;
-    box-shadow: 5px 5px 20px darkgray;
-    margin: 0 80px;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    margin: 20px 80px 0 80px;
     display: flex;
     justify-content: space-evenly;
     background-color: pink;
@@ -132,7 +132,7 @@ nav a i {
     padding-right: 10px;
 }
 
-#about .about-content p {
+article {
     line-height: 22px;
 }
 /* End About Me Section */
@@ -173,8 +173,84 @@ nav a i {
     border-radius: 50%;
     padding: 15px;
 }
+/* End Skills Section */
 
-/* End Projects Section */
+/* Start Contact Section */
+#contact {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    color: #e866a2;
+    padding: 50px;
+}
+ 
+.form h2 {
+    text-align: center;
+}
+
+form {
+    background-color: white;
+    border-radius: 15px;
+}
+
+input, label {
+    display: block;
+}
+
+form {
+    padding: 0 20px 20px 20px;
+}
+
+form h2 {
+    padding: 20px 0 0 0;
+}
+
+.form-input {
+    margin: 20px;
+    padding-bottom: 8px;
+}
+
+.form-input label {
+    padding-bottom: 4px;
+}
+
+.form-input input {
+    height: 30px;
+    padding-left: 10px;
+}
+
+.first-name-input {
+    float: left;
+}
+
+.last-name-input {
+    float: right;
+}
+
+.email-input input, textarea {
+    width: 100%;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    font-size: 15px;
+    padding: 9px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 5px 5px 6px rgba(0,0,0,0.2);
+    color: #e866a2;
+    background-color: pink;
+}
+
+button:hover {
+    box-shadow: 5px 5px 6px rgba(0,0,0,0.4);
+}
+/* End Contact Section */
 
 
 /* Start Footer Section */
@@ -196,6 +272,8 @@ footer {
 
 .social {
     font-size: 30px;
+    padding-top: 30px;
+    text-align: center;
 }
 
 .social a {

@@ -181,7 +181,16 @@ article {
     display: flex;
     justify-content: space-around;
     color: #e866a2;
-    padding: 50px;
+    padding: 80px;
+}
+
+.contact-section img {
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+    height: 240px;
+    border-radius: 50%;
+    margin-bottom: 20px;
 }
  
 .form h2 {
@@ -261,11 +270,7 @@ footer {
 }
 
 .top-footer {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.top-footer h2 {
+    text-align: center;
     color: #c62d70;
     font-size: 30px;
 }

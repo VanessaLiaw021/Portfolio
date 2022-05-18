@@ -151,6 +151,20 @@ article {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+#projects h2 {
+    padding-top: 20px;
+}
+
+.card-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: white;
+}
 /* End Projects Section */
 
 /* Start skills Section */

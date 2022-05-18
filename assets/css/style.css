@@ -226,15 +226,14 @@ article {
 form {
     background-color: white;
     border-radius: 15px;
+    width: 450px;
+    padding: 0 20px 20px 20px;
+    box-shadow: 5px 5px 6px rgba(0,0,0,0.2);
 }
 
 input, label {
     display: block;
-}
-
-form {
-    padding: 0 20px 20px 20px;
-    box-shadow: 5px 5px 6px rgba(0,0,0,0.2);
+    width: 100%;
 }
 
 form h2 {
@@ -248,19 +247,12 @@ form h2 {
 
 .form-input label {
     padding-bottom: 4px;
+    margin-bottom: 7px;
 }
 
 .form-input input {
-    height: 30px;
+    height: 40px;
     padding-left: 10px;
-}
-
-.first-name-input {
-    float: left;
-}
-
-.last-name-input {
-    float: right;
 }
 
 .email-input input, textarea {
@@ -269,6 +261,7 @@ form h2 {
 
 textarea {
     height: 100px;
+    padding: 10px;
 }
 
 button {
@@ -419,6 +412,7 @@ footer {
         font-size: 15px;
     }
 
+    /* Contact Section */
     #contact {
         flex-direction: column;
     }
@@ -458,6 +452,13 @@ footer {
 
     .avatar-image img {
         width: 250px;
+    }
+
+    /* Contact Section */
+    #contact {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     /* Footer Section */

@@ -339,13 +339,34 @@ footer {
         text-align: center;
     }
 
+    /* Contact Section */
+    #contact {
+        flex-direction: column;
+    }
+
+    .contact-section p {
+        text-align: center;
+    }
+
+    .social  {
+        padding-bottom: 30px;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
 
     /* Header Section */
     nav {
-        display: block;
+        flex-direction: row;
+    }
+
+    nav a {
+        font-size: 13px;
+    }
+
+    nav a i {
+        font-size: 20px;
     }
 
     #intro h1 {
@@ -360,6 +381,10 @@ footer {
      article {
          text-align: center;
          font-size: 15px;
+     }
+
+     #contact {
+         flex-direction: column;
      }
 
     /* Footer Section */
@@ -381,6 +406,12 @@ footer {
         font-size: 10px;
     }
 
+    /* Contact Section */
+    input, label {
+        display: block;
+    }
+
+    /* Footer Section */
     .links a span {
         display: hidden;
     }

@@ -326,6 +326,8 @@ footer {
 
 /* Media Queries */
 @media screen and (max-width: 1400px) {
+
+    /* Header Section */
     header {
         height: auto;
     }
@@ -376,6 +378,7 @@ footer {
 
 @media screen and (min-width: 770px) and (max-width: 890px) {
 
+    /* Skills Section */
     #skills {
         margin: 40px 50px;
     }
@@ -395,6 +398,7 @@ footer {
 
     nav a {
         font-size: 13px;
+        margin: 0 auto;
     }
 
     nav a i {

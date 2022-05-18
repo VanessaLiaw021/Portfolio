@@ -339,6 +339,12 @@ footer {
         text-align: center;
     }
 
+    /* Skills Section */
+    #skills .icons {
+        flex-direction: column;
+    }
+
+
     /* Contact Section */
     #contact {
         flex-direction: column;
@@ -373,19 +379,28 @@ footer {
         font-size: 80px;
     }
 
-     /* About Section */
-     #about .card-container {
-         flex-direction: column;
-     }
+    /* About Section */
+    #about .card-container {
+        flex-direction: column;
+    }
 
-     article {
-         text-align: center;
-         font-size: 15px;
-     }
+    article {
+        text-align: center;
+        font-size: 15px;
+    }
 
-     #contact {
-         flex-direction: column;
-     }
+    #contact {
+        flex-direction: column;
+    }
+
+    /* Skills Section */
+    #skills .icons {
+        flex-direction: column;
+    }
+
+    .code-logo {
+        margin: 10px;
+    }
 
     /* Footer Section */
     .top-footer {
@@ -401,14 +416,18 @@ footer {
 
 @media screen and (max-width: 500px) {
 
+    /* Header Section */
+    #intro h1 {
+        font-size: 70px;
+    }
+
     /* About Section */
     .about-content h2 {
         font-size: 10px;
     }
 
-    /* Contact Section */
-    input, label {
-        display: block;
+    .avatar-image img {
+        width: 250px;
     }
 
     /* Footer Section */

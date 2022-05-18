@@ -24,6 +24,7 @@ header {
     background-position: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    border-bottom: 2px solid #e866a2;
 }
 
 nav {
@@ -153,6 +154,8 @@ article {
     height: auto;
     padding-top: 15px;
     padding-bottom: 40px;
+    border-top: 2px solid #e866a2;
+    border-bottom: 2px solid #e866a2;
 }
 
 #projects h2 {
@@ -274,6 +277,7 @@ article {
     justify-content: space-around;
     color: #e866a2;
     padding: 80px;
+    border-top: 2px solid #e866a2;
 }
 
 .contact-section {
@@ -321,6 +325,10 @@ form {
 input, label {
     display: block;
     width: 100%;
+}
+
+input {
+    border: 1px solud black;
 }
 
 form h2 {

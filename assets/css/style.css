@@ -19,7 +19,10 @@ body {
 /* Start Header Section */
 header {
     height: 90vh;
-    background-color: black;
+    background-image: url(/assets/images/banner.webp);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 nav {
@@ -180,7 +183,10 @@ article {
 
 /* Start Contact Section */
 #contact {
-    background-color: black;
+    background-image: url(/assets/images/banner.webp);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: space-around;
     color: #e866a2;
@@ -194,6 +200,23 @@ article {
     height: 240px;
     border-radius: 50%;
     margin-bottom: 20px;
+}
+
+.social {
+    font-size: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.social a {
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px 12px;
+}
+
+.social a i {
+    color: #e866a2;
+    font-size: 20px;
 }
  
 .form h2 {
@@ -211,6 +234,7 @@ input, label {
 
 form {
     padding: 0 20px 20px 20px;
+    box-shadow: 5px 5px 6px rgba(0,0,0,0.2);
 }
 
 form h2 {
@@ -276,23 +300,6 @@ footer {
     text-align: center;
     color: #c62d70;
     font-size: 30px;
-}
-
-.social {
-    font-size: 30px;
-    padding-top: 30px;
-    text-align: center;
-}
-
-.social a {
-    background-color: pink;
-    border-radius: 50%;
-    padding: 5px 12px;
-}
-
-.social a i {
-    color: white;
-    font-size: 20px;
 }
 
 .bottom-footer {

@@ -12,11 +12,11 @@
 /* Start Header Section */
 header {
     height: 90vh;
-    background-image: url(./assets/images/banner.webp);
+    background-color: black;
+    background-image: url(./images/banner.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: black;
 }
 
 nav {
@@ -92,3 +92,70 @@ nav a i {
     color: #c62d70;
 }
 /* End Header Section */
+
+/* Start About Me Section */
+#about h2 {
+    text-align: center;
+    margin: 50px 0 20px 0;
+    font-size: 30px;
+}
+
+#about .card-container {
+    border: 1px solid black;
+    margin: 0 80px;
+}
+/* End About Me Section */
+
+/* Start Footer Section */
+footer {
+    padding: 40px;
+    color: black;
+    border-top: 2px solid #e866a2;
+}
+
+.top-footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.top-footer h2 {
+    color: #c62d70;
+    font-size: 30px;
+}
+
+.social {
+    font-size: 30px;
+}
+
+.social a {
+    background-color: pink;
+    border-radius: 50%;
+    padding: 5px 12px;
+}
+
+.social a i {
+    color: white;
+    font-size: 20px;
+}
+
+.bottom-footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.links {
+    margin-bottom: 20px;
+}
+
+.links a  {
+    color:#e866a2;
+}
+
+.links a span {
+    color: black;
+}
+
+.links a:hover {
+    color: #c62d70;
+}
+/* End Footer Section */

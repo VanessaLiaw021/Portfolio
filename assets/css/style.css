@@ -1,12 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,700&display=swap');
 
-/* Universal Selector */
+/* Universal and Element Selector */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     font-family: "Courier Prime", sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
 }
 
 /* Start Header Section */
@@ -358,6 +365,18 @@ footer {
         padding-bottom: 30px;
     }
 
+}
+
+@media screen and (min-width: 770px) and (max-width: 890px) {
+
+    #skills {
+        margin: 40px 50px;
+    }
+
+    #skills .icons {
+        flex-direction: row;
+        font-size: 30px;
+    } 
 }
 
 @media screen and (max-width: 768px) {

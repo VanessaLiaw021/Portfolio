@@ -20,7 +20,7 @@ body {
 /* Start Header Section */
 header {
     height: 90vh;
-    background-image: url(/assets/images/banner.webp);
+    background-image: url(https://images.unsplash.com/photo-1520052205864-92d242b3a76b?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469);
     background-position: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -146,7 +146,7 @@ article {
 
 /* Start Projects Section */
 #projects {
-    background-image: url(/assets/images/banner.webp);
+    background-image: url(https://images.unsplash.com/photo-1520052205864-92d242b3a76b?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469);
     background-position: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -182,12 +182,11 @@ article {
     border-radius: 50%;
     padding: 15px;
 }
-
 /* End Skills Section */
 
 /* Start Contact Section */
 #contact {
-    background-image: url(/assets/images/banner.webp);
+    background-image: url(https://images.unsplash.com/photo-1520052205864-92d242b3a76b?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469);
     background-position: fixed;
     background-repeat: no-repeat;
     background-size: cover;

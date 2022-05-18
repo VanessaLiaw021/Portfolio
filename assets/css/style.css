@@ -150,20 +150,65 @@ article {
     background-position: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 40px;
 }
 
 #projects h2 {
-    padding-top: 20px;
+    padding-bottom: 15px;
 }
 
 .card-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .card {
     background-color: white;
+    margin: 0 50px;
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 5px 6px rgba(0,0,0,0.4);     
+}
+
+.card {
+    background-image: url(https://images.unsplash.com/photo-1616001089004-04948fc0e6c1?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770);
+}
+
+.card-content h3 {
+    text-align: center;
+    margin: 20px;
+    background-color: pink;
+    padding: 10px;
+    border-radius: 15px;
+    color: #e866a2;
+}
+
+.project-links {
+    text-align: center;
+    position: relative;
+    bottom: -90px;
+}
+
+.project-links button {
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 13px;
+    border-radius: 10px;
+    border: none;
+}
+
+.project-links button:hover {
+    box-shadow: 5px 5px 6px rgba(0,0,0,0.3);  
 }
 /* End Projects Section */
 
@@ -285,7 +330,7 @@ textarea {
     padding: 10px;
 }
 
-button {
+#contact button {
     display: block;
     margin: 0 auto;
     font-size: 15px;
@@ -297,7 +342,7 @@ button {
     background-color: pink;
 }
 
-button:hover {
+#contact button:hover {
     box-shadow: 5px 5px 6px rgba(0,0,0,0.4);
 }
 /* End Contact Section */

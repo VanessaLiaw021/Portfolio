@@ -450,6 +450,16 @@ footer {
         flex-direction: row;
         font-size: 30px;
     } 
+
+    /* Profile Section */
+    .card-wrapper {
+        flex-direction: column;
+    }
+
+    .card {
+        margin: 20px 50px;
+        width: 400px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -485,6 +495,16 @@ footer {
     /* Contact Section */
     #contact {
         flex-direction: column;
+    }
+    
+    /* Profile Section */
+    .card-wrapper {
+        flex-direction: column;
+    }
+
+    .card {
+        margin: 20px 50px;
+        width: 400px;
     }
 
     /* Skills Section */

@@ -217,10 +217,12 @@ article {
     text-align: center;
     position: relative;
     bottom: -100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .project-links button {
-    display: inline-block;
     margin: 0 20px;
     cursor: pointer;
     padding: 5px;
@@ -468,6 +470,18 @@ footer {
 
 }
 
+@media screen and (min-width: 880px) and (max-width: 1300px) {
+
+    /* Project Section */
+   .card-wrapper {
+       flex-direction: column;
+   }
+
+   .card {
+       margin: 30px 0;
+   }
+}
+
 @media screen and (min-width: 770px) and (max-width: 890px) {
 
     /* Skills Section */
@@ -496,6 +510,7 @@ footer {
     /* Header Section */
     nav {
         flex-direction: row;
+        background-color: white;
     }
 
     nav a {

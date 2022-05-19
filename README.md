@@ -22,6 +22,8 @@ My portfolio include a about me section, a project section, a skills section, an
 
 ## Visuals
 
+Full page screenshot of my portfolio application
+
 ![Vanessa's Personal Portfolio Website](./assets/images/Vanessa's-Portfolio.png)
 
 ## Resources

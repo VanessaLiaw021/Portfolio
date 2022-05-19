@@ -264,6 +264,11 @@ article {
     border-radius: 50%;
     padding: 15px;
 }
+
+.code-logo:hover {
+    background-color: white;
+    transform: rotate(0.5deg) scale(1.2);
+}
 /* End Skills Section */
 
 /* Start Contact Section */

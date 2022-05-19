@@ -185,10 +185,17 @@ article {
 }
 
 .card1 {
+    display: block;
+    margin: 0 auto;
+    padding-top: 5px;
     background-image: url(https://media.istockphoto.com/photos/plus-minus-divide-multiply-symbols-picture-id1061654982?k=20&m=1061654982&s=612x612&w=0&h=AF7EKVyHEYobMaBPfy3R88IA8n22Tr9VN8hUvShVXww=);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.big-card {
+    margin-bottom: 40px;
 }
 
 .card2 {
@@ -459,6 +466,10 @@ footer {
         text-align: center;
     }
 
+    .card1 {
+        text-align: center;
+    }
+
     /* Skills Section */
     #skills .icons {
         flex-direction: column;
@@ -490,6 +501,15 @@ footer {
    .card {
        margin: 30px 0;
    }
+
+   .card1 {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .big-card {
+        margin-bottom: 30px;
+    }
 }
 
 @media screen and (min-width: 770px) and (max-width: 890px) {
@@ -512,6 +532,15 @@ footer {
     .card {
         margin: 20px 50px;
         width: 400px;
+    }
+
+    .card1 {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .big-card {
+        margin-bottom: 30px;
     }
 }
 
@@ -561,6 +590,15 @@ footer {
         width: 400px;
     }
 
+    .card1 {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .big-card {
+        margin-bottom: 30px;
+    }
+
     /* Skills Section */
     #skills .icons {
         flex-direction: column;
@@ -596,6 +634,16 @@ footer {
 
     .avatar-image img {
         width: 250px;
+    }
+
+    /* Project Section */
+    #big-card-content {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .card1 {
+        margin-bottom: 20px;
     }
 
     /* Contact Section */

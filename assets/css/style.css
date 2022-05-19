@@ -254,16 +254,20 @@ article {
 #skills .icons i {
     margin: 0 50px;
     padding: 20px 0;
+    color: #c62d70;
 }
 
 #skills .icons p {
     text-align: center;
     font-size: 25px;
     padding-bottom: 10px;
+    color: black;
 }
 
 .code-logo {
-    background-color: pink;
+    border: 2px solid #c62d70;
+    background-color: #FFB6C1;
+    box-shadow: 5px 5px 6px rgba(0,0,0,0.2);
     margin: 0 30px;
     border-radius: 50%;
     padding: 15px;
@@ -306,6 +310,7 @@ article {
     background-color: white;
     border-radius: 50%;
     padding: 5px 12px;
+    box-shadow: 5px 5px 6px rgba(0,0,0,0.2);
 }
 
 .social a i {

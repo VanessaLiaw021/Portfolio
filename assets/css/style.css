@@ -177,7 +177,7 @@ article {
 .card {
     background-color: white;
     margin: 0 50px;
-    width: 500px;
+    width: 350px;
     height: 220px;
     border-radius: 10px;
     background-image: url(https://c4.wallpaperflare.com/wallpaper/500/483/798/pastel-purple-background-wallpaper-preview.jpg);
@@ -187,6 +187,7 @@ article {
 .card1 {
     display: block;
     margin: 0 auto;
+    width: 500px;
     padding-top: 5px;
     background-image: url(https://media.istockphoto.com/photos/plus-minus-divide-multiply-symbols-picture-id1061654982?k=20&m=1061654982&s=612x612&w=0&h=AF7EKVyHEYobMaBPfy3R88IA8n22Tr9VN8hUvShVXww=);
     background-repeat: no-repeat;
@@ -216,37 +217,17 @@ article {
     box-shadow: 5px 5px 5px 6px rgba(0,0,0,0.4);     
 }
 
-.card-content h3 {
+.card-content {
+    padding-top: 10%;
+}
+
+.card-heading h3 {
     text-align: center;
-    margin: 20px;
+    color: #e866a2;
     background-color: pink;
-    padding: 10px;
-    border-radius: 15px;
-    color: #e866a2;
-}
-
-.project-links {
-    text-align: center;
-    position: relative;
-    bottom: -100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.project-links button {
-    margin: 0 20px;
-    cursor: pointer;
-    padding: 5px;
-    font-size: 13px;
+    padding: 15px;
     border-radius: 10px;
-    border: 2px solid #e866a2;
-    background-color: white;
-    color: #e866a2;
-}
-
-.project-links button:hover {
-    box-shadow: 5px 5px 6px rgba(0,0,0,0.3);  
+    margin: 30px;
 }
 /* End Projects Section */
 

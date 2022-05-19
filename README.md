@@ -3,6 +3,7 @@
 ## Table of Content
 - [Description](#description)
 - [Visuals](#visuals)
+- [Resources](#resources)
 - [Author and Acknowledgement](#author-and-acknowledgement)
 
 ## Description
@@ -22,6 +23,12 @@ My portfolio include a about me section, a project section, a skills section, an
 ## Visuals
 
 ![Vanessa's Personal Portfolio Website](./assets/images/Vanessa's-Portfolio.png)
+
+## Resources
+
+- [Live Site](https://vanessaliaw021.github.io/portfolio/)
+
+- [Github Repo](https://github.com/VanessaLiaw021/portfolio)
 
 ## Author and Acknowledgement
 

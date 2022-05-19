@@ -17,6 +17,10 @@ body {
     width: 100%;
 }
 
+section {
+    scroll-margin-top: 10rem;
+}
+
 /* Start Header Section */
 header {
     height: 90vh;

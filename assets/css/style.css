@@ -208,6 +208,13 @@ article {
     background-position: center;
 }
 
+.card4 {
+    background-image: url(./assets/images/somewhere.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .card:hover {
     box-shadow: 5px 5px 5px 6px rgba(0,0,0,0.4);     
 }
@@ -226,7 +233,7 @@ article {
 }
 /* End Projects Section */
 
-/* Start skills Section */
+/* Start Skills Section */
 #skills {
     margin: 40px 0; 
 }

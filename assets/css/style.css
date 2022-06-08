@@ -209,7 +209,7 @@ article {
 }
 
 .card4 {
-    background-image: url(./assets/images/somewhere.png);
+    background-image: url(../assets/images/somewhere.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -462,7 +462,6 @@ footer {
         flex-direction: column;
     }
 
-
     /* Contact Section */
     #contact {
         flex-direction: column;
@@ -644,7 +643,7 @@ footer {
 
 @media screen and (max-width: 580px) {
     .avatar-image img {
-        width: 300px;
+        width: 250px;
         height: 300px;
         margin: 0 auto;
     }
